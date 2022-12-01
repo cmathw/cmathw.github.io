@@ -139,14 +139,14 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: #006400;
+  background-color: var(--global-nav-bar-color);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-nav-bar-color);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
   }
   a:hover {
     color: var(--global-hover-color);
@@ -156,10 +156,10 @@ blockquote {
   }
 }
 .dropdown-item {
-  color: var(--global-text-color);
+  color: var(--global-text-color-light);
     &:hover {
       color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
+      background-color: var(--global-nav-bar-color);
     }
 }
 .navbar.navbar-light {
