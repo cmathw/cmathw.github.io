@@ -169,10 +169,10 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
     &:hover {
       color: var(--global-hover-color);
     }
@@ -191,7 +191,7 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-text-color-light);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
@@ -208,7 +208,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-text-color-light);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -242,7 +242,7 @@ blockquote {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: var(--global-text-color-light);
   &:hover {
     color: var(--global-hover-color);
   }
